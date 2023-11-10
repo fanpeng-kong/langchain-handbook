@@ -1,0 +1,14 @@
+name: llm_py310
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - ipykernel
+    - ipywidgets
+    - python-dotenv
+    - langchain
+    - openai
+    - tiktoken
+    - pinecone-client[grpc]
+    - datasets
+    - apache-beam
